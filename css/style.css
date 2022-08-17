@@ -133,14 +133,6 @@ a {
     pointer-events: none;
 }
 
-.download-link:hover {
-    color: #2D87F2;
-}
-
-.download-link:hover .download-link__icon {
-    background-color: #EDEEEF;
-}
-
 .download-link:focus {
     outline: none;
     color: #2D87F2;
@@ -217,6 +209,14 @@ a {
 
     .download-link {
         font-size: 14px;
+    }
+
+    .download-link:hover {
+        color: #2D87F2;
+    }
+    
+    .download-link:hover .download-link__icon {
+        background-color: #EDEEEF;
     }
 
     .download-link__icon {
